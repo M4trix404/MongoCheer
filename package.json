@@ -1,0 +1,33 @@
+{
+  "name": "mongocheer",
+  "version": "1.0.0",
+  "description": "web scraper app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4trix404/MongoCheer.git"
+  },
+  "keywords": [
+    "mongo"
+  ],
+  "author": "arainey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4trix404/MongoCheer/issues"
+  },
+  "homepage": "https://github.com/M4trix404/MongoCheer#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.0",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}
